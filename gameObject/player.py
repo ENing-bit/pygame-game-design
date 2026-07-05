@@ -9,7 +9,7 @@ class Player(pygame.sprite.Sprite):  # 继承 Sprite 类
         if not image:
             self.image.fill((255, 0, 0))  # 默认图像填充为红色
         self.rect = self.image.get_rect(topleft=(initial_pos.x, initial_pos.y))  # 使用 rect 管理位置
-        self.move_speed = 200  # 每秒移动的像素数
+        self.move_speed = 280  # 每秒移动的像素数
 
     def update(self, sender, delta_time):
         """
