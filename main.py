@@ -24,7 +24,7 @@ if __name__ == "__main__":
         gameMap.load_level("level/level_first_36x396_0.1.0.csv", read_row_count=20)
         gameMap.load_map_background("back_all.jpg")
         gameMap.set_map_scrolling(True)
-        gameMap.roll_speed = 1
+        gameMap.roll_speed = 1.5
 
         # 设置蛇属性
         gameMap.set_snake_is_enable_falling(True)  # 设置蛇允许掉落
